@@ -16,7 +16,7 @@ pip install pygame
 ```bash
 python -option main_game_sokoban.py
 ```
-(option có thể tùy chọn có hoặc không. Đây là phiên bản Python cài thư viện Pygame)
+(option có thể có hoặc không. Đây là phiên bản Python cài thư viện Pygame)
 
 ## Diều khiển
 - Mũi tên trái/phải: Chọn màn chơi
