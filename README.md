@@ -1,33 +1,33 @@
 # AI-Sokoban
 
-Nghien cuu va xay dung game Sokoban bang thuat toan A*.
+Nghiên cứu và xây dựng game Sokoban và tìm kiếm đường đi bằng thuật toán A*.
 
-Du an duoc viet bang Python va Pygame, co che do nguoi choi va che do AI su dung thuat toan A* de tu tim loi giai.
+Được viết bằng Python với thư viện Pygame, có chế độ người chơi và chế độ AI sử dụng thuật toán A* để tự tìm lời giải.
 
-## Cai dat
-
-Can cai Python va thu vien `pygame`.
+## Cài đặt
+Cần cài đặt thư viện `pygame` trên máy.
 
 ```bash
 pip install pygame
 ```
 
-## Chay game
+## Chạy game
 
 ```bash
-python main_game_sokoban.py
+python -option main_game_sokoban.py
 ```
+(option có thể tùy chọn có hoặc không. Đây là phiên bản Python cài thư viện Pygame)
 
-## Dieu khien
+## Diều khiển
+- Mũi tên trái/phải: Chọn màn chơi
+- Tab: đổi giữa chế độ Player và AI
+- ENTER: bắt đầu trò chơi
+- Phím mũi tên: di chuyển nhân vật trong chế độ Player
+  
 
-- Mui ten trai/phai: chon man choi
-- Tab: doi giua che do Player va AI
-- Enter: bat dau
-- Phim mui ten: di chuyen nhan vat trong che do Player
+## Cấu trúc dự án
 
-## Cau truc du an
-
-- `main_game_sokoban.py`: file chay chinh, xu ly giao dien va vong lap game
-- `sokoban.py`: logic Sokoban, kiem tra thang, di chuyen va trang thai ket
-- `Astar.py`: thuat toan A* cho che do AI
-- `Assets_sokoban/`: hinh anh nhan vat, tuong, thung, nen va diem dich
+- `main_game_sokoban.py`: file chạy chính, xử lý giao diện và vòng lặp game
+- `sokoban.py`: logic Sokoban, kiểm tra thắng, di chuyển và trạng thái kết
+- `Astar.py`: thuật toán A* cho chế độ AI
+- `Assets_sokoban/`: hình ảnh nhân vật, tường, thùng, nền và điểm đích
