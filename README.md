@@ -1,6 +1,8 @@
-# AI Sokoban
+# AI-Sokoban
 
-Game Sokoban duoc viet bang Python va Pygame, co che do nguoi choi va che do AI su dung thuat toan A* de tu tim loi giai.
+Nghien cuu va xay dung game Sokoban bang thuat toan A*.
+
+Du an duoc viet bang Python va Pygame, co che do nguoi choi va che do AI su dung thuat toan A* de tu tim loi giai.
 
 ## Cai dat
 
